@@ -1,0 +1,144 @@
+.education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 170px;
+}
+
+.education-title{
+    position: relative;
+}
+.education-title h1{
+    padding: 0px 30px;
+    font-size: 80px;
+    font-weight: 600;
+}
+.education-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index:-1;
+}
+.education-section{
+    display: flex;
+    gap: 60px;
+}
+ .about-educations{
+    /* display: flex;
+    width: 100%;*/
+    justify-content: space-around; 
+    margin-bottom: 80px;
+} 
+.about-education{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    transition: 0.5s;
+}
+.about-education h3{
+    font-size: 50px;
+    font-weight: 500;
+    background: linear-gradient(270deg,  #DF8908 -5.09%, #B415FF 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.about-education p{
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.about-education:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+}
+.dropdown-header {
+    cursor: pointer;
+    user-select: none;
+    transition: color 0.3s ease;
+  }
+  
+  .dropdown-header:hover {
+    color: #007BFF;
+  }
+  
+  .courses-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+    padding: 0 0;
+  }
+  
+  .courses-dropdown.open {
+    max-height: 500px; /* Adjust as needed */
+    padding: 10px 0;
+  }
+  
+  .courses-dropdown ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 10px;
+  }
+  
+  .courses-dropdown li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
+  .courses-dropdown .course-name {
+    flex-grow: 1;
+    margin-right: 50px;
+  }
+  .view-button {
+    text-decoration: none;
+    background:linear-gradient(270deg,  #DF8908 -5.09%, #B415FF 90%);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+    
+  }
+  
+  .view-button:hover {
+    background: #DF8908;
+  }
+@media(max-width:768px){
+    .education{
+        gap: 80px;
+        margin: 50px 70px;
+        align-items: start;
+    }
+    .education-title h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .education-title img{
+        width: 130px;
+        right: -20px;
+    }
+    .education-section{
+        
+        flex-direction: column;
+    }
+    .about-education{
+        display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    }
+    .about-education h3{
+        
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .about-education p{
+        text-align: left;
+        font-size: 20px;
+        
+    }
+}
