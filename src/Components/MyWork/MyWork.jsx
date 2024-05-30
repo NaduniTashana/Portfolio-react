@@ -48,7 +48,7 @@ const MyWork = () => {
       </div>
       <div className="mywork-container" data-aos="fade-up">
         {mywork_data.map((work, index) => (
-          <div key={index} className="mywork-item">
+          <div key={index} className="mywork-item" data-aos="fade-up">
             <img src={work.w_img} alt={work.w_title} />
             <div className="overlay">
               <h3>{work.w_title}</h3>
