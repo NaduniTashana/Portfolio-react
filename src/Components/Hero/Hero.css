@@ -47,11 +47,16 @@
     cursor: pointer;
 
 }
+.hero-resume a{
+    text-decoration: none;
+    color: #B415FF;
+}
 .hero-resume{
     padding: 25px 75px;
     border-radius: 50px;
     border: 2px solid #FFF;
     cursor: pointer;
+    text-decoration: none;
 }
 .hero-connect:hover{
     border: 2px solid white;

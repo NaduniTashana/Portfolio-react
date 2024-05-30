@@ -17,7 +17,7 @@ const Hero = () => {
       <p>Passionate and driven student exploring the realms of data science and software engineering</p>
       <div className="hero-action" data-aos="fade-up">
         <div className="hero-connect"><AnchorLink  className='anchor-link' offset={50} href='#contact'><p onClick = {()=>setMenu("contact")}></p>Connect with me</AnchorLink></div>
-        <a href="https://drive.google.com/uc?export=download&id=1O8QOGQXbwlkh7YLBjcfIEc9IAvSpzG1h" download="NaduniTashana_CV.pdf">My Resume</a>
+        <div className='hero-resume'><a href="https://drive.google.com/uc?export=download&id=1O8QOGQXbwlkh7YLBjcfIEc9IAvSpzG1h" download="NaduniTashana_CV.pdf">My Resume</a></div>
       </div>
 
 
